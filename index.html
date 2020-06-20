@@ -1,116 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <title>¿Cuánto Pongo?</title>
+    <title>Guille Giletta</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Comfortaa|Quicksand"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Quicksand" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <h1>Guille Giletta</h1>
+
+
+    <script src="./js/scripts.js"></script>
     <script src="./js/smooth-scroll.min.js"></script>
     <script>
-      var scroll = new SmoothScroll('a[href*="#"]');
+        var scroll = new SmoothScroll('a[href*="#"]');
     </script>
-  </head>
-  <body>
-    <div class="wrapper">
-      <!-- First Section-->
-      <section class="section-1">
-        <section class="skewed">
-          <section class="sect-1-top">
-            <!-- Navbar -->
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQs</a>
-              </li>
-            </ul>
-            <!-- Title -->
-            <h1>¿Cuánto Pongo?</h1>
-            <h3>No más matemática después de la cerveza.</h3>
-          </section>
-        </section>
+</body>
 
-        <!--Button-->
-        <section class="sect-1-bottom">
-          <a data-scroll href="#section-2" class="btn" id="btn_go"
-            ><p>Comenzar</p></a
-          >
-        </section>
-      </section>
-
-      <!-- Second Section-->
-      <section id="section-2" class="section-2">
-        <!-- Add Data -->
-        <section class="sect-2-top">
-          <p>
-            Agregá a todos los que están en la reunión, aclarando cuánto dinero
-            gastó cada uno.
-          </p>
-          <form class="form-inline" action="#">
-            <input
-              type="text"
-              required="required"
-              class="form-control my-2 mx-auto col-5 add__name"
-              placeholder="Nombre/Apodo"
-              name="name"
-            />
-            <input
-              type="number"
-              step="any"
-              required="required"
-              class="form-control my-2 col-4 add__value"
-              placeholder="¿Cuánto puso?"
-              name="money"
-            />
-            <button type="button" class="btn btn-primary my-2 mx-auto add__btn">
-              Agregar
-            </button>
-          </form>
-        </section>
-
-        <!-- Show Data -->
-        <section class="sect-2-bottom">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Nombre</th>
-                <th>Puso</th>
-                <th>Paga</th>
-                <th>Recibe</th>
-              </tr>
-            </thead>
-            <tbody class="participants__list">
-              <!--
-            <tr>  <td>Cacho</td> <td>$50</td> <td class="pay">-</td> <td class="income">-</td> <td><button type="submit" class="btn btn-primary my-2 mx-auto remove__btn">X</button></td>  </tr>
-            <tr>  <td>Gordo</td> <td>$0</td> <td class="pay">$50</td> <td class="income">-</td>  </tr>
-            <tr>  <td>Juancho</td> <td>$200</td> <td class="pay">-</td> <td class="income">$150</td>  </tr>
-            <tr>  <td>Gabi</td> <td>$0</td> <td class="pay">$50</td> <td class="income">-</td>  </tr>
-            <tr>  <td>Jorge</td> <td>$0</td> <td class="pay">$50</td> <td class="income">-</td>  </tr>
-          -->
-            </tbody>
-          </table>
-        </section>
-      </section>
-
-      <!-- Footer -->
-      <div class="footer">
-        <footer>© 2019 Lucas Otaño.</footer>
-      </div>
-    </div>
-    <script src="app.js"></script>
-  </body>
 </html>
