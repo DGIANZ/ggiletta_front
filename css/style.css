@@ -57,7 +57,7 @@ h2 {
     transform: translate(-56%, -134%);
     width: 75%;
     font-weight: 500;
-    color: #242b31;
+    color: #242b31 !important;
 }
 
 .img_bg {
