@@ -4,6 +4,12 @@
     margin: 10px;
 }
 
+.card {
+    -webkit-box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.29);
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.29);
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .mobile_90vh {
