@@ -1,121 +1,218 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
-    <title>Guille Giletta</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Quicksand" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Guillermina Giletta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700%7CMontserrat:400,700" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-md bg-light  navbar-light fixed-top">
-        <a class="navbar-brand" href="#">GG</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse center" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Inspiración</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Mis Referentes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-            </ul>
+<body class="scroll-assist">
+    <a id="top"></a>
+    <div class="loader"></div>
+    <nav class="transition--fade">
+        <div class="nav-bar nav--absolute nav--transparent" data-fixed-at="200">
+            <div class="nav-module logo-module left">
+                <a href="index.html">
+                    <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
+                    <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                </a>
+            </div>
+            <div class="nav-module menu-module left">
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="experimentacion.html">
+                            Experimentación
+                        </a>
+                    </li>
+                    <li>
+                        <a href="referentes.html">
+                            Mis Referentes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--end nav module-->
+
+        </div>
+        <!--end nav bar-->
+        <div class="nav-mobile-toggle visible-sm visible-xs">
+            <i class="icon-Align-Right icon icon--sm"></i>
         </div>
     </nav>
 
-    <div class="banner">
-        <div class="opacity">
-            <h1>Guillermina Giletta</h1>
-        </div>
-    </div>
-
-    <div class="container" id="about_me">
-        <div class="container pad_v30">
-            <div class="row">
-                <div class="col-12 only_mobile">
-                    <h2>Sobre mí</h2>
-                </div>
-                <div class="col-md-12 col-lg-6">
-                    <div class="img_bg" style="background-image: url(./imgs/artist.jpg);">
-
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-6 pad_v15">
-                    <div class="descrip">
-                        <h2 class="only_desktop">Sobre mí</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                            to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover
-                            many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 only_mobile">
-                    <h2>Inspiración</h2>
-                </div>
-                <div class="col-md-12 col-lg-6 only_mobile">
-                    <div class="img_bg" style="background-image: url(./imgs/inspiracion.jpg);">
-
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-6 pad_v15">
-                    <div class="descrip">
-                        <h2 class="only_desktop">Inspiración</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                            to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover
-                            many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-6 only_desktop">
-                    <div class="img_bg" style="background-image: url(./imgs/inspiracion.jpg);">
-
-                    </div>
+    <div class="modal-container search-modal" data-modal-id="search-form">
+        <div class="modal-content bg-white imagebg" data-width="100%" data-height="100%">
+            <div class="pos-vertical-center clearfix">
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+                    <form class="clearfix">
+                        <div class="input-with-icon">
+                            <i class="icon-Magnifi-Glass2 icon icon--sm"></i>
+                            <input type="search" name="query" placeholder="Type your search and hit enter" />
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+        <!--end of modal-content-->
     </div>
-
-    <div class="jumbotron center" style="background-image: url(./imgs/paint.jpg);">
-        <h2>Ver Portfolio</h2>
-    </div>
-
-    <footer>
-        <div class="container center">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    &copy; Guillermina Giletta | 2020
-                </div>
-                <div class="col-12 col-md-6">
-                    Developed by Lucas Otaño
+    <!--end of modal-container-->
+    <div class="main-container transition--fade">
+        <section class="height-100 imagebg cover cover-1 parallax mobile_90vh" data-overlay="3">
+            <div class="background-image-holder">
+                <img alt="image" src="img/hero1.jpg" />
+            </div>
+            <div class="container pos-vertical-center">
+                <div class="row">
+                    <div class="col-sm-6 text-right text-center-xs">
+                        <img class="logo" alt="Pillar" src="img/logo-large-light.png" />
+                    </div>
+                    <div class="col-sm-6 text-center-xs">
+                        <p class="lead">
+                            Guillermina
+                            <br />Giletta
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
 
+        <!-- Start Biografía -->
+        <section class="imageblock about-1 bg--secondary">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder">
+                    <img alt="image" src="img/hero29.jpg" />
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-8">
+                        <h3>Biografía</h3>
+                        <p>
+                            Guillermina nace en 1997 en Rafaela, provincia de Santa Fe, lugar en el que reside actualmente. En el año 2015 participó del programa Voluntario Amigo, organizado por la Asociación del MMAUP, en el Museo Municipal de Arte “Dr. Urbano Poggi” de Rafaela.
+                            Ese mismo año recibió el título Bachiller en Arte: Artes Visuales, al culminar la educación secundaria en el establecimiento educativo E.E.S. Orientada N°428 “Luisa R. de Barreiro”. En el año 2019 participó como pasante guía
+                            en la muestra Papel Protagónico del escritor e ilustrador Istvansch realizada en el Museo Municipal de Arte “Dr. Urbano Poggi”. En la actualidad está cursando su quinto año en el Profesorado de Artes en Artes Visuales en el
+                            Instituto Superior del Profesorado N°2 “Dr. Joaquín V. González” de Rafaela.
+                        </p>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <!-- End of Biografía -->
 
+        <!-- Start Inspiración -->
+        <section class="imageblock about-1 bg--secondary">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-left">
+                <div class="background-image-holder">
+                    <img alt="image" src="img/hero29.jpg" />
+                </div>
+            </div>
 
-    <script src="./js/scripts.js"></script>
-    <script src="./js/smooth-scroll.min.js"></script>
-    <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
-    </script>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-4">
+                    </div>
+                    <div class="col-md-5 col-sm-8">
+                        <h3>Inspiración</h3>
+                        <p>
+                            Guillermina indaga en el universo de las tramas y las texturas provenientes de la naturaleza. Se interesa en lo microscópico, en lo que no puede ser visto a simple vista. Examina la belleza que hay en ello. Utiliza instrumentos como la lupa o el microscopio
+                            para poder acceder a esos mundos y obtener material para realizar su obra. Su búsqueda se centra en hacer visible lo invisible, en generar un momento de encuentro entre la humanidad y la naturaleza, en exponer los detalles
+                            presentes en aquello que no se ve. Coloca delante de la mirada imágenes que normalmente pasan desapercibidas. Su intención es que el espectador se detenga a observar y se maraville junto a ella con las imágenes que ofrece la
+                            naturaleza. Cuando ésta es contemplada con detenimiento aparece la magia.
+                        </p>
+                        <a class="btn btn--square" href="variant/builder.html">
+                            <span class="btn__text">
+                                Ver Más
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End of Inspiración -->
+
+        <!-- Go to Portfolio -->
+        <section class="subscribe subscribe-1 space--sm imagebg" data-overlay="3" style="margin-top: 50px;">
+            <div class="background-image-holder">
+                <img alt="image" src="img/header4.jpg" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <a class="btn btn--lg mb--1" href="portfolio.html">
+                            <span class="btn__text">
+                                Ver Portfolio
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+
+        <footer class="bg--dark footer-1 text-center-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <a href="#">
+                            <img class="logo" alt="Pillar" src="img/logo-light.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row footer__lower text-center-xs">
+                    <div class="col-sm-12">
+                        <hr>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="type--fine-print">&copy; Copyright
+                            <span class="update-year">2020</span> Guillermina Giletta - Todos los derechos reservados</span>
+                    </div>
+                    <div class="col-sm-6 text-right text-center-xs">
+                        <span class="type--fine-print">Desarrollado por Lucas Otaño</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/ytplayer.min.js"></script>
+    <script src="js/easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/twitterfetcher.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
