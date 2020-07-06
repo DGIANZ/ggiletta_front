@@ -10,9 +10,32 @@
     box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.29);
 }
 
+.banner_title_custom {
+    padding-top: 5em;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .mobile_90vh {
         height: 90vh;
+    }
+    .banner_title_custom {
+        padding-top: 0;
+    }
+}
+
+
+/* Navbar */
+
+.nav-bar .logo {
+    max-height: 80%;
+    margin: 0;
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .nav-bar .logo {
+        max-height: 60%;
     }
 }
