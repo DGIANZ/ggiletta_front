@@ -39,3 +39,9 @@
         max-height: 60%;
     }
 }
+
+/* Banners */
+.background-image-holder.background--bottom.custom_banner{    
+    filter: blur(1.7px);
+    background-position: 50% 50% !important;
+}
