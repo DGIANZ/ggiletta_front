@@ -14,6 +14,14 @@
     padding-top: 5em;
 }
 
+.only_mobile{
+    display: none;
+}
+.only_desktop{
+    display: inherit;
+}
+
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .mobile_90vh {
@@ -21,6 +29,13 @@
     }
     .banner_title_custom {
         padding-top: 0;
+    }
+
+    .only_mobile{
+        display: inherit;
+    }
+    .only_desktop{
+        display: none;
     }
 }
 
@@ -63,19 +78,44 @@
 .name_on_cover div img{
     margin: 0;
 }
-/* .name_on_cover .text{
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-}
-.name_on_cover .img{
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-} */
-
 
 .lead_custom{
     position: absolute;
     left: 50%;
     top: 50% !important;
     transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .custom_cover .celulas{
+        height: 65vh !important;
+        margin: 0;
+    }
+    .custom_cover .celulas div{
+        height: 100vw !important;
+    }
+    .custom_cover .celulas .background-image-holder{
+        transform: rotate(90deg);
+    }
+    .custom_cover .nombre{
+        padding-bottom: 6em;
+    }
+    .custom_cover .nombre div{
+        text-align: center;
+        width: 65%;
+        background-color: #232323ed;
+        color: #f1f0f0;
+    }
+    .custom_cover .nombre div p{
+        font-size: 2em !important;
+    }
+}
+
+/* Experimentación */
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .tabs_experimentacion li a div, .tabs_experimentacion li div {
+        padding-left: 1.5em !important;
+        padding-right: 1.5em !important;
+    }
 }

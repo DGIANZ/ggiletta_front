@@ -80,6 +80,7 @@ mr = (function (mr, $, window, document){
     };
 
     mr.util.sortChildrenByText = function(parentElement, reverse){
+        console.log(parentElement.prevObject[0].innerText);
         var $parentElement = $(parentElement);
         var items          = $parentElement.children().get();
         var order          = -1;
@@ -89,9 +90,16 @@ mr = (function (mr, $, window, document){
         items.sort(function(a,b){
           var keyA = $(a).text();
           var keyB = $(b).text();
-
-          if (keyA < keyB) return order;
-          if (keyA > keyB) return order2;
+            
+          if (parentElement.prevObject[0].innerText == 'Pruebas de estadoProyecto finalEstetica de la web') {
+              console.log('hola');
+                if (keyA < keyB) return order2;
+              if (keyA > keyB) return order;
+          } else {
+            console.log('chau');
+              if (keyA < keyB) return order;
+              if (keyA > keyB) return order2;
+          }
           return 0;
         });
         
