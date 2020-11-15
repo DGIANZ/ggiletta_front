@@ -109,6 +109,10 @@
     .custom_cover .nombre div p{
         font-size: 2em !important;
     }
+    
+    .foto_guille{
+        height: 80vh !important;
+    }
 }
 
 /* Experimentación */
